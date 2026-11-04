@@ -1,0 +1,124 @@
+{
+  "project": {
+    "question": "",
+    "decision_to_support": "",
+    "population": "",
+    "regions": [],
+    "evidence_cutoff": null,
+    "deliverable": "",
+    "search_scope": "",
+    "limitations": []
+  },
+  "products": [
+    {
+      "id": "product-1",
+      "molecule": "",
+      "development_code": null,
+      "brand": null,
+      "current_rights_holder": null,
+      "molecular_type": "",
+      "formulation_version": "",
+      "route": "",
+      "jurisdiction": ""
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "title": "",
+      "url": "",
+      "issuer": "",
+      "published_at": null,
+      "verified_at": null,
+      "source_type": "",
+      "access_scope": "",
+      "locator": "",
+      "version": null
+    }
+  ],
+  "trials": [
+    {
+      "id": "trial-1",
+      "registry_id": null,
+      "phase": "",
+      "population_and_baseline": "",
+      "randomization_and_blinding": "",
+      "actual_start_date": null,
+      "common_background_treatment": "",
+      "treatment_and_followup": "",
+      "analysis_and_estimand": "",
+      "arms": [
+        {
+          "id": "arm-1",
+          "components": [
+            {
+              "product_id": "product-1",
+              "dose": null,
+              "unit": "",
+              "route": "",
+              "frequency": "",
+              "titration_and_loading": ""
+            }
+          ],
+          "randomized_n": null,
+          "treated_n": null,
+          "safety_n": null,
+          "source_ids": ["source-1"]
+        }
+      ],
+      "results": [
+        {
+          "id": "result-1",
+          "arm_id": "arm-1",
+          "comparator_arm_id": null,
+          "endpoint": "",
+          "endpoint_role": "",
+          "timepoint": "",
+          "analysis_set": "",
+          "estimand": "",
+          "metric_type": "",
+          "value": null,
+          "unit": "",
+          "numerator": null,
+          "denominator": null,
+          "interval_and_type": null,
+          "p_value": null,
+          "multiplicity": null,
+          "reporting_status": "not-yet-extracted",
+          "source_ids": ["source-1"],
+          "locator": ""
+        }
+      ],
+      "source_ids": ["source-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1",
+      "claim": "",
+      "scope": "",
+      "evidence_mode": "",
+      "source_ids": ["source-1"],
+      "result_ids": [],
+      "calculation": null,
+      "supported_conclusion": "",
+      "unsupported_extrapolations": [],
+      "conflicts_or_gaps": [],
+      "output_locations": [],
+      "as_of": null
+    }
+  ],
+  "status_events": [
+    {
+      "id": "event-1",
+      "product_or_regimen_id": "product-1",
+      "region": "",
+      "indication_and_population": "",
+      "event_type": "",
+      "date": null,
+      "date_precision": null,
+      "actual_or_expected": "",
+      "source_ids": ["source-1"]
+    }
+  ]
+}
